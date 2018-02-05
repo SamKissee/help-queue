@@ -1,8 +1,14 @@
-import React from "react";
+import React from 'react';
 
 function Header(){
+  var styles = {
+    backgroundColor: '#ecf0f1',
+    fontFamily: 'sans-serif'
+  };
   return (
-    <h1>Help Queue</h1>
+    <div style={styles}>
+      <h1>Help Queue</h1>
+    </div>
   );
 }
 
