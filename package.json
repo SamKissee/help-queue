@@ -1,7 +1,6 @@
 {
   "name": "react-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src/** src/**/**; exit 0",
@@ -14,7 +13,8 @@
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
@@ -28,5 +28,14 @@
     "react-hot-loader": "^3.0.0-beta.7",
     "webpack": "^3.4.0",
     "webpack-dev-server": "^2.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamKissee/help-queue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SamKissee/help-queue/issues"
+  },
+  "homepage": "https://github.com/SamKissee/help-queue#readme",
+  "description": ""
 }
